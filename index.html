@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./style/_button-add-to-cart.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+            <a href="#" class="logo">Moboto</a>
+            <!-- cart-icon -->
+            <i class="bi bi-cart3" id="cart-icon"></i>
+            <!-- cart -->
+            <div class="cart">
+                <h4 class="cart-title mt-5 pb-3 text-center">سبد خرید</h4>
+                <!-- content -->
+                <div class="cart-content">
+
+                    <!-- <div class="cart-box my-3">
+                        <img src="./img/m01.jpg" alt="" class="cart-img p-1">
+                        <div class="detail-box">
+                            <div class="cart-product-title">هودی</div>
+                            <div class="cart-price">260000تومان</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                         remove cart
+                        <i class="bi bi-x-circle-fill cart-remove"></i>
+                    </div> -->
+                </div>
+                <!-- total -->
+                <div class="total mt-1 pt-2">
+                    <div class="total-title">جمع کل : </div>
+                    <div class="total-price mx-2">0 تومان</div>
+                </div>
+                <!-- buy button  -->
+                <button type="button" class="btn btn-buy">بخر الان</button>
+                <!-- cart close -->
+                <i class="bi bi-x" id="close-cart"></i>
+
+            </div>
+        </div>
+    </header>
+    <!-- shop -->
+    <section class="shop container mt-5">
+        <h2 class="section-title mb-4">لیست محصولات</h2>
+        <!-- content -->
+        <div class="shop-content">
+            <!-- box1 -->
+            <div class="product-box">
+                <img src="./img/m01.jpg" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">هودی رنگین کمانی</h2>
+                <span class="price">260تومان</span>
+            </div>
+            <!-- box2 -->
+            <div class="product-box">
+                <img src="./img/m02.jpg" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">هودی خرسی</h2>
+                <span class="price">300 تومان</span>
+            </div>
+            <!-- box3 -->
+            <div class="product-box">
+                <img src="./img/m03.jpg" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">دُرس رنگی ساده</h2>
+                <span class="price">250 تومان</span>
+            </div>
+            <!-- box4 -->
+            <div class="product-box">
+                <img src="./img/m04.jpg" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">هودی رنگین کمانی</h2>
+                <span class="price">260تومان</span>
+            </div>
+            <!-- box5 -->
+            <div class="product-box">
+                <img src="./img/m05.jpg" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">هودی رنگین کمانی</h2>
+                <span class="price">260تومان</span>
+            </div>
+            <!-- box6 -->
+            <div class="product-box">
+                <img src="./img/m06.jpg" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">هودی رنگین کمانی</h2>
+                <span class="price">260تومان</span>
+            </div>
+            <!-- box7 -->
+            <div class="product-box">
+                <img src="./img/m07.png" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">هودی رنگین کمانی</h2>
+                <span class="price">260تومان</span>
+            </div>
+            <!-- box8 -->
+            <div class="product-box">
+                <img src="./img/m08.jpg" alt="" class="product-img">
+                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <h2 class="product-title mb-2">هودی رنگین کمانی</h2>
+                <span class="price">260تومان</span>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.product-box button {
+    border: none;
+    background: white;
+    margin: 12px 0px 0px 3px;
+}
+.product-box:hover .add-to-cart{
+    top: -8px;
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.product-box .add-to-cart{
+    position: relative;
+    top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    color: #ed1c24;
+    cursor: pointer;
+}
